@@ -31,21 +31,13 @@ HOST-SUFFIX,dl.google.com,DIRECT
 # > Microsoft
 USER-AGENT,Microsoft%20Remote%20Desktop*,DIRECT
 HOST-SUFFIX,msftconnecttest.com,DIRECT
-HOST-SUFFIX,windows.com,DIRECT
-HOST-SUFFIX,windows.net,DIRECT
-HOST-SUFFIX,windowsupdate.com,DIRECT
-HOST-SUFFIX,xbox.com,DIRECT
-HOST-SUFFIX,xboxlive.com,DIRECT
-
-# > Mugglepay
-HOST-SUFFIX,invoice.mugglepay.com,DIRECT
 
 # > Steam
 USER-AGENT,Steam*,DIRECT
 HOST,cm.steampowered.com,DIRECT
 HOST,ol.epicgames.com,DIRECT
 HOST-SUFFIX,steamcontent.com,DIRECT
-
+HOST-SUFFIX,steamserver.net,DIRECT
 HOST-SUFFIX,steamchina.com,DIRECT
 
 HOST,csgo.wmsj.cn,DIRECT
@@ -83,15 +75,23 @@ HOST-SUFFIX,teslamotors.com,DIRECT
 HOST-SUFFIX,teslamotors.com.cn,DIRECT
 HOST-SUFFIX,ts.la,DIRECT
 
+# > UBI
+HOST,uplaypc-s-ubisoft.cdn.ubi.com,DIRECT
+
+# > WiFiman
+HOST-SUFFIX,app-measurement.com,DIRECT
+
 # > Xunlei
 USER-AGENT,%E8%BF%85%E9%9B%B7,DIRECT
 HOST-SUFFIX,xunlei.com,DIRECT
 
 # > Private Tracker
+HOST-SUFFIX,audiences.me,DIRECT
 HOST-SUFFIX,awesome-hd.me,DIRECT
 HOST-SUFFIX,broadcasthe.net,DIRECT
 HOST-SUFFIX,chdbits.co,DIRECT
 HOST-SUFFIX,classix-unlimited.co.uk,DIRECT
+HOST-SUFFIX,dmhy.best,DIRECT
 HOST-SUFFIX,empornium.me,DIRECT
 HOST-SUFFIX,gazellegames.net,DIRECT
 HOST-SUFFIX,hdchina.org,DIRECT

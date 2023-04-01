@@ -1,4 +1,4 @@
-# 2022年08月31日 14:02 UTC/GMT +8
+# 2022年10月22日 02:14 UTC/GMT +8
 
 port: 7890
 socks-port: 7891
@@ -62,6 +62,8 @@ dns:
     - 'xbox.*.microsoft.com'
     - '+.xboxlive.com'
     - 'stun.*'
+    - 'global.turn.twilio.com'
+    - 'global.stun.twilio.com'
     - 'localhost.*.qq.com'
     - '+.logon.battlenet.com.cn'
     - '+.logon.battle.net'
@@ -70,11 +72,13 @@ dns:
     - 'id6.me'
     - 'open.e.189.cn'
     - 'mdn.open.wo.cn'
+    - 'opencloud.wostore.cn'
     - 'auth.wosms.cn'
     - '+.jegotrip.com.cn'
     - '+.icitymobile.mobi'
     - '+.pingan.com.cn'
     - '+.cmbchina.com'
+    - '+.cmbchina.com.cn'
     - '+?miwifi.com'
     - 'pool.ntp.org'
     - '+.pool.ntp.org'
@@ -138,7 +142,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-    Proxies - SG:
+  Proxies - SG:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E6%96%B0%E5%8A%A0%E5%9D%A1%7CSG&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
     interval: 3600
@@ -147,7 +151,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-    Proxies - TW:
+  Proxies - TW:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E5%8F%B0%E6%B9%BE%7CTW&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
     interval: 3600
@@ -156,7 +160,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-    Proxies - JP:
+  Proxies - JP:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E6%97%A5%E6%9C%AC%7CJP&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
     interval: 3600
@@ -165,7 +169,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-    Proxies - KR:
+  Proxies - KR:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E9%9F%A9%E5%9B%BD%7CKR&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
     interval: 3600
@@ -174,7 +178,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-    Proxies - US:
+  Proxies - US:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E7%BE%8E%E5%9B%BD%7CUS&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
     interval: 3600
@@ -630,7 +634,7 @@ rule-providers:
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml
     path: ./Rules/Apple.yaml
     interval: 86400
-# 电报、Steam、微软及 Steam / PayPal 可选规则列表
+# 电报、微软、Steam 及 PayPal 可选规则列表
   Telegram:
     type: http
     behavior: classical
